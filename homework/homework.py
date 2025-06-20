@@ -55,7 +55,6 @@ def clean_campaign_data():
 
     lista_dfs = []
 
-    print("Archivos ZIP encontrados:", archivos_comprimidos)
 
     for archivo_zip in archivos_comprimidos:
         with zipfile.ZipFile(archivo_zip, 'r') as archivo_zip_ref:
